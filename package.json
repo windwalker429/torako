@@ -35,6 +35,6 @@
     "watch:webpack": "webpack -w",
     "watch": "yarn run watch:webpack & yarn run watch:pug"
   },
-  "repository": "git@github.com:niltea/hanarisa-button.git",
-  "author": "niltea <futurabodoni@gmail.com>"
+  "repository": "git@github.com:windwalker429/torako.git",
+  "author": "windwalker <windwalker429@gmail.com>"
 }
