@@ -56,7 +56,7 @@ table {
   min-height: 100vh;
   line-height: 1.7em;
   font-family: sans-serif;
-  background-color: #F6F4E7; }
+  background-color: #E7E8FB; }
 
 .mainContent {
   flex: 1;
@@ -87,7 +87,7 @@ h1 {
   cursor: pointer;
   color: #413f1f;
   border: 1px solid #413f1f;
-  background-color: #d5d9be;
+  background-color: #F8F7FC;
   border-radius: 5px;
   text-align: center; }
   .button-play.cat-c {
@@ -101,7 +101,7 @@ h1 {
     border-color: #888; }
 
 .mainFooter {
-  background-color: #9CA863;
+  background-color: #C8C5FF;
   color: #000; }
   .mainFooter a {
     color: #000; }
