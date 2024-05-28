@@ -152,6 +152,19 @@ document.addEventListener('DOMContentLoaded', function () {
             copiedButton.addEventListener('click', function (e) {
                 voice.play();
             });
+            //Hikari add
+            var metaTag = document.querySelector('meta[property="og:audio"]');
+            if (metaTag) {
+                metaTag.setAttribute("content", voicePath +".mp3");
+            } else {
+                console.log('Meta audio tag not found');
+            }
+            var titleTag = document.querySelector('meta[property="og:title"]');
+            if (titleTag) {
+                titleTag.setAttribute("content", copiedButton.textContent);
+            } else {
+                console.log('Meta title tag not found');
+            }
         }
     }
 });
