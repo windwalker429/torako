@@ -147,6 +147,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 formats: ['mp3'],
                 preload: true
             });
+            var audio_link = document.getElementById("audio_link");
+            audio_link.href = voicePath +".mp3";
             copiedButton.addEventListener('click', function (e) {
                 voice.play();
             });
