@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var voicePath = './voice/' + theID;
             var voice = new buzz.sound(voicePath, {
                 formats: ['mp3'],
-                preload: true
+                preload: false
             });
             var audio_link = document.getElementById("audio_link");
             audio_link.href = voicePath +".mp3";
