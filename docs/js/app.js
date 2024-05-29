@@ -98,7 +98,7 @@ var Sound = function () {
             var voicePath = './voice/' + voiceID;
             _this.voices[voiceID] = new buzz.sound(voicePath, {
                 formats: ['mp3'],
-                preload: true
+                preload: false
             });
             _this.voices[voiceID].bind('ended', onPlayEnd);
             button.addEventListener('click', function (e) {
