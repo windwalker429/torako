@@ -52,7 +52,7 @@
 							<input id="tabA" type="radio" name="subtab"></input>
 							<label for="tabA">定番</label>								
 							<div class="tab_content">							
-								<div class="button_wrapper">
+								<div class="button_wrapper" id="定番">
 									<div class="button button-play" data-voice="48o71n74U5U-5m40s">RRRRR</div>
 									<div class="button button-play" data-voice="K3kKfilQk94-41m32s">小毛RRR驢</div>
 									<div class="button button-play" data-voice="CT6hjfVmEdA-19m32s">不可能的</div>
@@ -308,6 +308,15 @@
 					btndiv.setAttribute("data-voice" ,obj[i].context[j].filename);				
 					btndiv.innerHTML=obj[i].context[j].name;
 					childdiv.appendChild(btndiv);
+					
+					if(obj[i].context[j].tag){
+						var catelog = document.getElementById(obj[i].context[j].tag);
+						var btndiv2 = document.createElement("div");
+						btndiv2.className = "button button-play";						
+						btndiv2.setAttribute("data-voice" ,obj[i].context[j].filename);				
+						btndiv2.innerHTML=obj[i].context[j].name;
+						catelog.appendChild(btndiv2);
+					}					
 				}
 			div.appendChild(childdiv);
 			banners.appendChild(div);
