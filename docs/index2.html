@@ -269,15 +269,7 @@
 				</div>
 			</div>
 		</div>
-	</body>
-	<script src="./js/app.js"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-115478883-6');
-	</script>
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</body>	
 	<style>
 		.tab_css{display:flex;flex-wrap:wrap;justify-content:center;}
 		.tab_css input{display:none}
@@ -288,25 +280,46 @@
 	</style>
 	<input type="file" id="file-selector" multiple>
 	<script>
-		fetch('buttons.json').then((response) => response.json()).then((json) 		
-		const obj = JSON.parse(json);		
-		
-		var banners = document.getElementById("banners");
-		for(var i=0 ; i<obj.length ; i++){			
-			var div = document.createElement("div");
-			div.className = "movie_wrapper";						
-			div.innerHTML='<h2 class="movie_title"><a href="' + obj[i].url +'" target="_blank">' + obj[i].name + '</a></h2>';
-			var childdiv = document.createElement("div");
-			childdiv.className="button_wrapper";
-			for(var j=0 ; j<obj[i].context.length ; j++){
-				var btndiv = document.createElement("div");
-				btndiv.className = "button button-play";						
-				btndiv.setAttribute("data-voice" ,obj[i].context[j].filename);				
-				btndiv.innerHTML=obj[i].context[j].name;
-				childdiv.appendChild(btndiv);
+		function readTextFile(file,callback) {
+		var rawFile = new XMLHttpRequest();
+		rawFile.overrideMimeType("application/json");
+		rawFile.open("GET", file, true);
+		rawFile.onreadystatechange = function() {
+			if (rawFile.readyState === 4 && rawFile.status == "200") {
+				callback(rawFile.responseText);
 			}
+		}
+		rawFile.send(null);
+		}
+		
+		readTextFile("https://windwalker429.github.io/torako/buttons.json" , function(text){
+			var obj = JSON.parse(text);
+			
+			var banners = document.getElementById("banners");
+			for(var i=0 ; i<obj.length ; i++){			
+				var div = document.createElement("div");
+				div.className = "movie_wrapper";						
+				div.innerHTML='<h2 class="movie_title"><a href="' + obj[i].url +'" target="_blank">' + obj[i].name + '</a></h2>';
+				var childdiv = document.createElement("div");
+				childdiv.className="button_wrapper";
+				for(var j=0 ; j<obj[i].context.length ; j++){
+					var btndiv = document.createElement("div");
+					btndiv.className = "button button-play";						
+					btndiv.setAttribute("data-voice" ,obj[i].context[j].filename);				
+					btndiv.innerHTML=obj[i].context[j].name;
+					childdiv.appendChild(btndiv);
+				}
 			div.appendChild(childdiv);
 			banners.appendChild(div);
-		}		
+		}
+		});					
 	</script>
+	<script src="./js/app.js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-115478883-6');
+	</script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </html>
