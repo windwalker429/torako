@@ -311,6 +311,11 @@
 				}
 			div.appendChild(childdiv);
 			banners.appendChild(div);
+			
+			window.document.dispatchEvent(new Event("DOMContentLoaded", {
+			bubbles: true,
+			cancelable: true
+			}));
 		}
 		});					
 	</script>
