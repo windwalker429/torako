@@ -38,77 +38,17 @@
 					</div>
 				</div>
 				<div class="tab_css">
-					<input id="tab1" type="radio" name="tab" checked="checked"></input>
-					<label for="tab1">總覽</label>
+					<input id="tabA" type="radio" name="tab" checked="checked"></input>
+					<label for="tabA">總覽</label>
 					<div class="tab_content">
 						<div class="multiButtonWrapper">
 							<div id="banners"></div>
 						</div>	
 					</div>
-					<input id="tab2" type="radio" name="tab"/>
-					<label for="tab2">分類</label>
+					<input id="tabB" type="radio" name="tab"/>
+					<label for="tabB">分類</label>
 					<div class="tab_content">						
-						<div class="tab_css">
-							<input id="tabA" type="radio" name="subtab"></input>
-							<label for="tabA">定番</label>								
-							<div class="tab_content">							
-								<div class="button_wrapper" id="定番"></div>								
-							</div>
-							<input id="tabB" type="radio" name="subtab"></input>
-							<label for="tabB">罵倒</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="罵倒"></div>								
-							</div>
-							<input id="tabC" type="radio" name="subtab"></input>
-							<label for="tabC">瑟瑟</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="瑟瑟"></div>
-							</div>
-							<input id="tabD" type="radio" name="subtab"></input>
-							<label for="tabD">否定</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="否定"></div>
-							</div>
-							<input id="tabE" type="radio" name="subtab"></input>
-							<label for="tabE">褒獎</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="褒獎"></div>
-							</div>
-							<input id="tabG" type="radio" name="subtab"></input>
-							<label for="tabG">生活音</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="生活音"></div>
-							</div>
-							<input id="tabH" type="radio" name="subtab"></input>
-							<label for="tabH">萌!</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="萌"></div>
-							</div>
-							<input id="tabI" type="radio" name="subtab"></input>
-							<label for="tabI">5ma</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="5ma"></div>
-							</div>
-							<input id="tabJ" type="radio" name="subtab"></input>
-							<label for="tabJ">震驚</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="震驚"></div>
-							</div>
-							<input id="tabK" type="radio" name="subtab"></input>
-							<label for="tabK">命令</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="命令"></div>
-							</div>
-							<input id="tabL" type="radio" name="subtab"></input>
-							<label for="tabL">暴言</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="暴言"></div>
-							</div>
-							<input id="tabM" type="radio" name="subtab"></input>
-							<label for="tabM">害羞</label>								
-							<div class="tab_content">
-								<div class="button_wrapper" id="害羞"></div>
-							</div>
+						<div class="tab_css" id="subtabs">							
 						</div>
 					</div>
 				</div>	
@@ -150,10 +90,38 @@
 		rawFile.send(null);
 		}
 		
-		readTextFile("https://windwalker429.github.io/torako/buttons.json" , function(text){
-			var obj = JSON.parse(text);
+		readTextFile("https://windwalker429.github.io/torako/buttons2.json" , function(text){
+			var jsonobj = JSON.parse(text);
 			
+			var subtabs = document.getElementById("subtabs");
+			var tabs = jsonobj.tablist;
+			for(var count=0 ; count<tabs.length ; count++){
+				var input = document.createElement("input");	
+				var tabId = "tab"+count;
+				input.setAttribute("id" , tabId);
+				input.setAttribute("type" , "radio");
+				input.setAttribute("name" , "subtab");
+				subtabs.appendChild(input);
+				
+				var tabTitle = tabs[count].title;
+				var tag = tabs[count].tag;
+								
+				var label = document.createElement("label");
+				label.setAttribute("for" , tabId);
+				label.innerHTML = tabTitle;
+				subtabs.appendChild(label);
+								
+				var div = document.createElement("div");
+				div.setAttribute("class" , "tab_content");
+				var subdiv = document.createElement("div");
+				subdiv.setAttribute("class" , "button_wrapper");
+				subdiv.setAttribute("id" , tag);
+				div.appendChild(subdiv);
+				subtabs.appendChild(div);
+			}
+						
 			var banners = document.getElementById("banners");
+			var obj = jsonobj.fulllist;
 			for(var i=0 ; i<obj.length ; i++){			
 				var div = document.createElement("div");
 				div.className = "movie_wrapper";						
@@ -183,7 +151,7 @@
 			div.appendChild(childdiv);
 			banners.appendChild(div);
 		}
-		window.document.dispatchEvent(new Event("DOMContentLoaded", {
+		window.document.dispatchEvent(new Event("DOMContentLoadedConfirm", {
 			bubbles: true,
 			cancelable: true
 			}));
