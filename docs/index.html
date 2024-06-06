@@ -143,7 +143,9 @@
 								btndivC.setAttribute("data-voice" ,obj[i].context[j].filename);				
 								btndivC.innerHTML=obj[i].context[j].name;
 								var catelog = document.getElementById(obj[i].context[j].tag[k]);
-								catelog.appendChild(btndivC);
+								if(catelog){
+									catelog.appendChild(btndivC);
+								}								
 							}
 						}												
 					}					
