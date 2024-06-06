@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=750,user-scalable=yes">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	<meta property="og:audio" content="">
+	<meta property="og:title"       content="大合虎子ちゃんが喋ってくれるよ">
+	<meta property="og:site_name"   content="大合虎子ちゃんが喋ってくれるよ">
+	<meta property="og:url"         content="icon.png">
+	<meta property="og:url"         content="index.html">
+	<meta property="og:title"       content="大合虎子ちゃんが喋ってくれるよ">
+	<meta property="og:description" content="大合虎子ちゃんが喋ってくれるよ">
+	<meta property="og:type"        content="video.other">
+	<meta property="og:image"       content="icon.png">
+	<meta property="og:image:width"  content="800">
+	<meta property="og:image:height" content="400">
+</head>
+<html lang="ja">
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# undefined: http://ogp.me/ns/undefined#">
+		<title>こんとら〜</title>
+		<link rel="stylesheet" href="./css/style.css?v=201903-01">
+	</head>
+	<body id="g">
+		<script>
+			var isPC = true;
+			(function () { if (navigator.userAgent.toLowerCase().match(/iphone|ipad|android/)) { document.body.classList.add('sp');isPC=false;return; } document.body.classList .add('pc'); })();
+		</script>
+		<!--block body-->    
+		<div id="wrapper">
+			<main class="mainContent">
+				<h1>こんとら〜</h1>
+				<p class="desc_top"><a href="https://www.youtube.com/@YahooTWtaigatorako" target="_blank">大合虎子ちゃん</a>が喋ってくれるよ。<br>音量には注意してね。</p>
+				<div class="singleButtonWrapper">
+					<div class="button_wrapper" id="singleButtonWrapper"></div>
+					<div class="content">
+						<p><a id="audio_link" href="#">Download</a></p>
+						<p><a href="/torako/">一覧に戻る</a></p>
+					</div>
+				</div>
+				<div class="tab_css">
+					<input id="tab1" type="radio" name="tab" checked="checked"></input>
+					<label for="tab1">總覽</label>
+					<div class="tab_content">
+						<div class="multiButtonWrapper">
+							<div id="banners"></div>
+						</div>	
+					</div>
+					<input id="tab2" type="radio" name="tab"/>
+					<label for="tab2">分類</label>
+					<div class="tab_content">						
+						<div class="tab_css" id="subtabs">							
+						</div>
+					</div>
+				</div>	
+				<div class="infoWrapper" id="infoWrapper">
+					<p><a href="#" target="_blank" id="fixedLink">このボタンへのリンク</a></p>
+				</div>
+			</main>
+			<div class="mainFooter">
+				<div class="credit">
+					
+					<p>音声等の権利は、全て元権利者に帰属します。</p>
+					<p>音声以外の部分については、<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja" target="_blank">CC-BY-NC-SA-4.0</a>に基づき自由にご利用ください。</p>
+					<p>原ソースコードは<a href="https://github.com/niltea/hanarisa-button" target="_blank">こちら</a>。</p>
+					<p>ソースコードは<a href="https://github.com/windwalker429/torako" target="_blank">こちら</a>。</p>
+					<p>協作者: windwalker / 梅子餅 / 風零寂雨 / Hikari Tsai</p>
+				</div>
+			</div>
+		</div>
+	</body>	
+	<style>
+		.tab_css{display:flex;flex-wrap:wrap;justify-content:center;}
+		.tab_css input{display:none}
+		.tab_css label{margin: 0 5px 5px 0; padding: 10px 16px; cursor: pointer; border-radius: 5px; background: #999; color: #fff; opacity: 0.5;}
+		.tab_content{order:1;display: none; width:100%; border-bottom: 3px solid #ddd; line-height: 1.6; font-size: .9em; padding: 15px; border: 1px solid #ddd; border-radius: 5px;}
+		.tab_css input:checked + label, .tab_css label:hover{opacity: 1; font-weight:bold;}
+		.tab_css input:checked + label + .tab_content{display: initial;}
+	</style>
+	<input type="file" id="file-selector" multiple>
+	<script>
+		function readTextFile(file,callback) {
+		var rawFile = new XMLHttpRequest();
+		rawFile.overrideMimeType("application/json");
+		rawFile.open("GET", file, true);
+		rawFile.onreadystatechange = function() {
+			if (rawFile.readyState === 4 && rawFile.status == "200") {
+				callback(rawFile.responseText);
+			}
+		}
+		rawFile.send(null);
+		}
+		
+		readTextFile("https://windwalker429.github.io/torako/buttons2.json" , function(text){
+			var jsonobj = JSON.parse(text);
+			
+			var subtabs = document.getElementById("subtabs");
+			var tabs = jsonobj.tablist;
+			for(var count=0 ; count<tabs.length ; count++){
+				var input = document.createElement("input");	
+				var tabId = "tab"+count;
+				input.setAttribute("id" , tabId);
+				input.setAttribute("type" , "radio");
+				input.setAttribute("name" , "subtab");
+				subtabs.appendChild(input);
+				
+				var tabTitle = tabs[count].title;
+				var tag = tabs[count].tag;
+								
+				var label = document.createElement("label");
+				label.setAttribute("for" , tabId);
+				label.innerHTML = tabTitle;
+				subtabs.appendChild(label);
+								
+				var div = document.createElement("div");
+				div.setAttribute("class" , "tab_content");
+				var subdiv = document.createElement("div");
+				subdiv.setAttribute("class" , "button_wrapper");
+				subdiv.setAttribute("id" , tag);
+				div.appendChild(subdiv);
+				subtabs.appendChild(div);
+			}
+						
+			var banners = document.getElementById("banners");
+			var obj = jsonobj.fulllist;
+			for(var i=0 ; i<obj.length ; i++){			
+				var div = document.createElement("div");
+				div.className = "movie_wrapper";						
+				div.innerHTML='<h2 class="movie_title"><a href="' + obj[i].url +'" target="_blank">' + obj[i].name + '</a></h2>';
+				var childdiv = document.createElement("div");
+				childdiv.className="button_wrapper";
+				for(var j=0 ; j<obj[i].context.length ; j++){
+					var btndiv = document.createElement("div");
+					btndiv.className = "button button-play";						
+					btndiv.setAttribute("data-voice" ,obj[i].context[j].filename);				
+					btndiv.innerHTML=obj[i].context[j].name;
+					childdiv.appendChild(btndiv);
+					
+					if(obj[i].context[j].tag){
+						for(var k=0 ; k<obj[i].context[j].tag.length ; k++){
+							if(obj[i].context[j].tag[k]){
+								var btndivC = document.createElement("div");
+								btndivC.className = "button button-play";						
+								btndivC.setAttribute("data-voice" ,obj[i].context[j].filename);				
+								btndivC.innerHTML=obj[i].context[j].name;
+								var catelog = document.getElementById(obj[i].context[j].tag[k]);
+								catelog.appendChild(btndivC);
+							}
+						}												
+					}					
+				}
+			div.appendChild(childdiv);
+			banners.appendChild(div);
+		}
+		window.document.dispatchEvent(new Event("DOMContentLoaded", {
+			bubbles: true,
+			cancelable: true
+			}));
+		});					
+	</script>
+	<script src="./js/app.js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-115478883-6');
+	</script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</html>
