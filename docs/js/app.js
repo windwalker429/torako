@@ -123,7 +123,7 @@ var Sound = function () {
     return Sound;
 }();
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoadedConfirm', function () {
     var playButtons = Array.from(document.getElementsByClassName('button-play'));
     var voiceList = [];
     playButtons.forEach(function (button) {
