@@ -119,6 +119,9 @@ h1 {
 .isSingle .multiButtonWrapper {
   display: none; }
 
+.isSingle .tab_css {
+  display: none; }
+
 .infoWrapper {
   position: absolute;
   background-color: #F6F4E7;
