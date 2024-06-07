@@ -84,15 +84,11 @@
 	<!--<input type="file" id="file-selector" multiple>-->
 	<script>
 		function checkSearchBar() {
-			var tabA = document.getElementById('tabA');
+			var tabB = document.getElementById('tabB');
 			var searchDiv = document.getElementsByClassName("search")[0];
-			if (tabA.checked) {
-				searchDiv.style.display = "flex";
-			}
-			else {
-				searchDiv.style.display = "none";
+			if (tabB.checked) {
 				searchDiv.children[1].value = '';
-				showAllButtons()
+				showAllButtons();
 			}
 		}
 		

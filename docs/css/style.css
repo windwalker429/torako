@@ -251,6 +251,7 @@ h1 {
 	}
 
 	#searchBar{
+		display: block;
 		margin-left: 7px;
 		width: 17%;
 		border-radius: 30px;
