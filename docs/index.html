@@ -19,6 +19,7 @@
 	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# undefined: http://ogp.me/ns/undefined#">
 		<title>こんとら〜</title>
 		<link rel="stylesheet" href="./css/style.css?v=201903-01">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 	</head>
 	<body id="g">
 		<script>
@@ -37,15 +38,19 @@
 						<p><a href="/torako/">一覧に戻る</a></p>
 					</div>
 				</div>
+				<div class="search">
+					<span class="searchbar-icon"><i class="fas fa-search"></i></span>
+					<input type="text" id="searchBar" onkeyup="searchByKeywords()" placeholder="">
+				</div>
 				<div class="tab_css">
-					<input id="tabA" type="radio" name="tab" checked="checked"></input>
+					<input id="tabA" type="radio" name="tab" checked="checked" onclick="checkSearchBar()"></input>
 					<label for="tabA">總覽</label>
 					<div class="tab_content">
 						<div class="multiButtonWrapper">
 							<div id="banners"></div>
 						</div>	
 					</div>
-					<input id="tabB" type="radio" name="tab"/>
+					<input id="tabB" type="radio" name="tab" onclick="checkSearchBar()"/>
 					<label for="tabB">分類</label>
 					<div class="tab_content">						
 						<div class="tab_css" id="subtabs">							
@@ -78,6 +83,72 @@
 	</style>
 	<!--<input type="file" id="file-selector" multiple>-->
 	<script>
+		function checkSearchBar() {
+			var tabA = document.getElementById('tabA');
+			var searchDiv = document.getElementsByClassName("search")[0];
+			if (tabA.checked) {
+				searchDiv.style.display = "flex";
+			}
+			else {
+				searchDiv.style.display = "none";
+				searchDiv.children[1].value = '';
+				showAllButtons()
+			}
+		}
+		
+		function searchByKeywords() {
+			var input = document.getElementById('searchBar');
+			var inputUpper = input.value.toUpperCase();
+			var streams = document.querySelectorAll(".movie_wrapper");
+			if ( input.value == "" ) {
+				showAllButtons()
+			}
+			else{
+				streams.forEach( stream => {
+				items = stream.querySelectorAll(".button-play");
+				var isBlockHide = true;
+				var itemCount = 0;
+				items.forEach( item => {
+					var txtValue = item.innerText;
+					if (txtValue.toUpperCase().indexOf(inputUpper) > -1) {
+						if (window.screen.width>=1300) {
+							if ( itemCount % 3 == 0) { 
+							item.style.marginLeft = "0";
+							}
+							else {
+								item.style.marginLeft = "2%";							
+							}
+						}						
+						item.style.display = "";
+						isBlockHide = false;
+						itemCount++;
+					} 
+					else {
+						item.style.display = "none";
+					}
+				})
+				if (isBlockHide) {
+					stream.style.display = "none";
+				}
+				else
+					stream.style.display = "";
+				})
+			}
+		}
+		
+		function showAllButtons() {
+			var streams = document.querySelectorAll(".movie_wrapper");
+			streams.forEach ( stream => {
+				stream.style.display = "";
+			})
+			
+			var items = document.querySelectorAll(".button-play");
+			items.forEach ( item => {
+				item.style.marginLeft = "";
+				item.style.display = "";
+			})
+		}
+
 		function readTextFile(file,callback) {
 		var rawFile = new XMLHttpRequest();
 		rawFile.overrideMimeType("application/json");
