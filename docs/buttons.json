@@ -68,12 +68,24 @@
                     "tag": ["定番"]
                 }, {
                     "filename": "AwZxJ0FvciQ-024739",
-                    "name": "感謝Super Chat，3Q",
+                    "name": "感謝Super Chat，3Q(普通版)",
+                    "tag": ["定番"]
+                }, {
+                    "filename": "fxSp3t4gERY-022425",
+                    "name": "感謝Super Chat，3Q(感謝版)",
                     "tag": ["定番"]
                 }, {
                     "filename": "wKFs7Y4l0c0-010944",
                     "name": "呵呵呵～嘛嘛嘛",
                     "tag": ["定番"]
+                }, {
+                    "filename": "wKFs7Y4l0c0-010944",
+                    "name": "呵呵呵～嘛嘛嘛",
+                    "tag": ["定番"]
+                }, {
+                    "filename": "RR0xyCUCS2M-013902",
+                    "name": "要去廁所唷，to~i~let, to~i~let",
+                    "tag": ["定番","萌"]
                 }
             ],
             "name": "定番",
@@ -697,7 +709,8 @@
                 }
             ],
             "name": "報台湾新聞的日本主播！用字幕君證明台湾老師教得很標準（大概） | 虎子播新聞#37",
-            "url": "https://www.youtube.com/watch?v=Buo7hB8vAvY"
+            "url": "https://www.youtube.com/watch?v=Buo7hB8vAvY",
+            "date": "2024-04-29"
         }, {
             "context": [{
                     "filename": "7DUS59Ig-Xw-59m20s",
@@ -715,7 +728,8 @@
                 }
             ],
             "name": "報台湾新聞的日本主播！用字幕君證明台湾老師教得很標準（大概） | 虎子播新聞#37",
-            "url": "https://www.youtube.com/watch?v=fprPX60Z8xA"
+            "url": "https://www.youtube.com/watch?v=fprPX60Z8xA",
+            "date": "2024-04-23"
         }, {
             "context": [{
                     "filename": "w0et0uxLGPU-42m53s",
@@ -735,13 +749,34 @@
             "url": "https://www.youtube.com/watch?v=w0et0uxLGPU"
         }, {
             "context": [{
+                    "filename": "8ovZnHmfIUs-012433",
+                    "name": "放送事故(軟體當機)",
+                    "tag": ["萌"]
+                }
+            ],
+            "name": "【歌雑/縱配信】おはようTorako～雑談～！！#9 #vtuber 【Torakolive】",
+            "url": "https://www.youtube.com/watch?v=8ovZnHmfIUs",
+            "date": "2024-04-14"
+        }, {
+            "context": [{
                     "filename": "w0et0uxLGPU-022911",
                     "name": "縦読み？? 這太犯規了啦(害羞遮臉)",
                     "tag": ["震驚"]
                 }
             ],
             "name": "【棉花糖酒雜】回答很多人問題哦！我中文閱讀比較慢，請大家忍耐 中文/日文【TorakoLive】",
-            "url": "https://www.youtube.com/watch?v=w0et0uxLGPU"
+            "url": "https://www.youtube.com/watch?v=w0et0uxLGPU",
+            "date": "2023-08-24"
+        }, {
+            "context": [{
+                    "filename": "-btXKaFnN4Y-012314",
+                    "name": "你們這些臭男生不可以捉弄女孩子喔",
+                    "tag": ["命令"]
+                }
+            ],
+            "name": "【歌枠#10】中文台語○○歌挑戰？！ Let's go !!【Torakolive】",
+            "url": "https://www.youtube.com/watch?v=-btXKaFnN4Y",
+            "date": "2023-07-22"
         }, {
             "context": [{
                     "filename": "gnOV5mMdOww-002020",
@@ -835,7 +870,43 @@
                 }
             ],
             "name": "【ASMR #1】初次配信！希望可以治癒大家的疲憊　初めてのASMR配信 みんなの疲れよ飛んでけー！！！【Torako Live with 3dio】",
-            "url": "https://www.youtube.com/live/s2x9ikmm1Rg"
+            "url": "https://www.youtube.com/live/s2x9ikmm1Rg",
+            "date": "2023-06-10"
+        }, {
+            "context": [{
+                    "filename": "fxSp3t4gERY-015822",
+                    "name": "這太難了啦",
+                    "tag": ["萌"]
+                },{
+                    "filename": "fxSp3t4gERY-020842",
+                    "name": "老師救救我我不會唱歌",
+                    "tag": ["萌"]
+                },{
+                    "filename": "fxSp3t4gERY-020936",
+                    "name": "阿哈啊哈",
+                    "tag": ["萌"]
+                },{
+                    "filename": "fxSp3t4gERY-020958",
+                    "name": "老師教我(哭哭)",
+                    "tag": ["萌"]
+                },{
+                    "filename": "fxSp3t4gERY-022102",
+                    "name": "零用錢我太多了喔",
+                    "tag": ["萌"]
+                },{
+                    "filename": "fxSp3t4gERY-022220",
+                    "name": "我今天買了雞蛋",
+                    "tag": ["萌"]
+                },{
+                    "filename": "fxSp3t4gERY-023507",
+                    "name": "打翻許多啤酒罐",
+                    "tag": ["生活音","萌"]
+                }
+            ],
+            
+            "name": "【練習歌枠#2】努力練歌回～歌練習枠與雜談～【Torakolive】",
+            "url": "https://www.youtube.com/watch?v=fxSp3t4gERY",
+            "date": "2023-04-21"
         }
     ]
 }
