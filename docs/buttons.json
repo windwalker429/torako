@@ -68,16 +68,20 @@
                     "tag": ["定番"]
                 }, {
                     "filename": "AwZxJ0FvciQ-024739",
-                    "name": "感謝Super Chat，3Q(普通版)",
+                    "name": "感謝Super Chat，3Q(短版)",
                     "tag": ["定番"]
                 }, {
                     "filename": "fxSp3t4gERY-022425",
-                    "name": "感謝Super Chat，3Q(感謝版)",
+                    "name": "感謝Super Chat，3Q(長版)",
+                    "tag": ["定番"]
+                },{
+                    "filename": "lWET45jOg5U-035202",
+                    "name": "感謝紅SC",
                     "tag": ["定番"]
                 }, {
                     "filename": "wKFs7Y4l0c0-010944",
                     "name": "呵呵呵～嘛嘛嘛",
-                    "tag": ["定番"]
+                    "tag": ["定番","萌"]
                 }, {
                     "filename": "RR0xyCUCS2M-013902",
                     "name": "初見安安",
@@ -85,6 +89,10 @@
                 }, {
                     "filename": "gPwe_D3WeuU-024151",
                     "name": "要去廁所唷，to~i~let, to~i~let",
+                    "tag": ["定番","萌"]
+                }, {
+                    "filename": "lWET45jOg5U-040108",
+                    "name": "ENDDING招呼語",
                     "tag": ["定番","萌"]
                 }
             ],
@@ -135,11 +143,11 @@
                 }, {
                     "filename": "xcHBC6XA3aA-002202",
                     "name": "我的腦袋裡面在BURA，YABE",
-                    "tag": []
+                    "tag": ["萌",""]
                 }, {
                     "filename": "xcHBC6XA3aA-002453",
                     "name": "這是什麼!?「一籌莫展」桑初見安安",
-                    "tag": []
+                    "tag": ["暴言"]
                 }, {
                     "filename": "xcHBC6XA3aA-002548",
                     "name": "YABAI，這是什麼?這是什麼?",
@@ -327,7 +335,7 @@
                 }, {
                     "filename": "0Pk4-zkj7Jo-54m01s",
                     "name": "ㄑㄍㄨㄐㄏ(請跟我結婚)～",
-                    "tag": []
+                    "tag": ["否定"]
                 }, {
                     "filename": "0Pk4-zkj7Jo-1h30m30s",
                     "name": "小心肝~",
@@ -351,7 +359,7 @@
                 }, {
                     "filename": "0Pk4-zkj7Jo-2h51m05s",
                     "name": "好人卡",
-                    "tag": []
+                    "tag": [""]
                 }, {
                     "filename": "0Pk4-zkj7Jo-2h57m26s",
                     "name": "ASMR風晚安",
@@ -372,7 +380,7 @@
                 }, {
                     "filename": "h5QpyLyFjuI-55m59s",
                     "name": "我沒有吃醋啦～",
-                    "tag": []
+                    "tag": ["否定"]
                 }, {
                     "filename": "h5QpyLyFjuI-1h07m08s",
                     "name": "好吃的加上好吃當然好吃",
@@ -409,7 +417,7 @@
             "context": [{
                     "filename": "AwZxJ0FvciQ-004410",
                     "name": "統一發票中了一千塊",
-                    "tag": []
+                    "tag": ["萌"]
                 }, {
                     "filename": "AwZxJ0FvciQ-012817",
                     "name": "我正在懷孕中喔(?)",
@@ -470,11 +478,11 @@
                 }, {
                     "filename": "yYSaVR28bfo-002907",
                     "name": "啊⭢啊↗頑張って~~ 啊?",
-                    "tag": []
+                    "tag": ["萌"]
                 }, {
                     "filename": "yYSaVR28bfo-003254",
                     "name": "他是あれ只有我看得到嗎?哇～～放手放手",
-                    "tag": []
+                    "tag": ["震驚"]
                 }, {
                     "filename": "yYSaVR28bfo-004541",
                     "name": "誒啊啊なになになになになになになに",
@@ -759,6 +767,44 @@
             "date": "2024-04-14"
         }, {
             "context": [{
+                    "filename": "lWET45jOg5U-033359",
+                    "name": "感謝紅SC(快哭了)",
+                    "tag": ["萌","褒獎"]
+                }, {
+                    "filename": "lWET45jOg5U-033734",
+                    "name": "我真的很感謝大家(感動到哭)",
+                    "tag": ["害羞","褒獎"]
+                }, {
+                    "filename": "lWET45jOg5U-034026",
+                    "name": "不行喔(整理情緒)",
+                    "tag": ["萌","害羞"]
+                }, {
+                    "filename": "lWET45jOg5U-034129",
+                    "name": "因為(DD)你們有很多其他女孩子對吧，我只有你們",
+                    "tag": ["震驚","萌"]
+                }, {
+                    "filename": "lWET45jOg5U-034204",
+                    "name": "不哭？我沒哭！",
+                    "tag": ["萌"]
+                }, {
+                    "filename": "lWET45jOg5U-034807",
+                    "name": "嘟嚕嚕嚕嚕嚕",
+                    "tag": ["萌"]
+                }, {
+                    "filename": "lWET45jOg5U-035258",
+                    "name": "下次一定下次一定",
+                    "tag": []
+                }, {
+                    "filename": "lWET45jOg5U-035858",
+                    "name": "肝很重要，沈默的臟器",
+                    "tag": []
+                }
+            ],
+            "name": "【虎子一週年紀念！】回顧配信、感謝歌回、新衣裝發表、謝謝與大家的一年【Torakolive】",
+            "url": "https://www.youtube.com/watch?v=lWET45jOg5U",
+            "date": "2023-12-10"
+        }, {
+            "context": [{
                     "filename": "w0et0uxLGPU-022911",
                     "name": "縦読み？? 這太犯規了啦(害羞遮臉)",
                     "tag": ["震驚"]
@@ -767,7 +813,7 @@
             "name": "【棉花糖酒雜】回答很多人問題哦！我中文閱讀比較慢，請大家忍耐 中文/日文【TorakoLive】",
             "url": "https://www.youtube.com/watch?v=w0et0uxLGPU",
             "date": "2023-08-24"
-        }, {
+    }, {
             "context": [{
                     "filename": "-btXKaFnN4Y-012314",
                     "name": "你們這些臭男生不可以捉弄女孩子喔",
@@ -781,7 +827,7 @@
             "context": [{
                     "filename": "gnOV5mMdOww-002020",
                     "name": "回授事故(已濾波請安心使用)",
-                    "tag": []
+                    "tag": ["萌"]
                 }, {
                     "filename": "gnOV5mMdOww-002223",
                     "name": "牙敗，(心音被大家聽)真的好尷尬",
@@ -793,7 +839,7 @@
                 }, {
                     "filename": "gnOV5mMdOww-002618",
                     "name": "(腹の音1)啊，要停下來嗎？",
-                    "tag": ["生活音"]
+                    "tag": ["生活音","害羞"]
                 }, {
                     "filename": "gnOV5mMdOww-002649",
                     "name": "肚子的聲音被大家聽到了(羞)",
@@ -801,15 +847,15 @@
                 }, {
                     "filename": "gnOV5mMdOww-002705",
                     "name": "(被聽心音)很緊張，很害羞，還有那個腹の音...",
-                    "tag": ["生活音"]
+                    "tag": ["生活音","害羞"]
                 }, {
                     "filename": "gnOV5mMdOww-002830",
                     "name": "(腹の音2)還是趕快結束吧",
-                    "tag": ["生活音"]
+                    "tag": ["生活音","害羞"]
                 }, {
                     "filename": "gnOV5mMdOww-003254",
                     "name": "老公嗎?我說的是老公",
-                    "tag": ["害羞"]
+                    "tag": ["害羞","瑟瑟"]
                 }, {
                     "filename": "gnOV5mMdOww-013137",
                     "name": "我踢你我踢你",
@@ -850,7 +896,7 @@
                 }, {
                     "filename": "s2x9ikmm1Rg-005843",
                     "name": "是媽媽唷～呦西呦西",
-                    "tag": []
+                    "tag": ["萌","褒獎"]
                 }, {
                     "filename": "s2x9ikmm1Rg-010413",
                     "name": "不可以色色",
