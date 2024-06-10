@@ -24,6 +24,7 @@
   gtag('config', 'G-R2YYPGFHSR');
 </script>
 
+
 <html lang="ja">
 	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# undefined: http://ogp.me/ns/undefined#">
 		<title>こんとら〜</title>
@@ -237,4 +238,24 @@
 	</script>
 	<script src="./js/app.js"></script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script>
+		// 定義追踪事件的函數
+		function trackButtonClick(event) {
+		  // 獲取被點擊按鈕的文本或其他變數
+		  var buttonText = event.target.innerText;
+	  
+		  // 發送事件到Google Analytics
+		  gtag('event', 'button_click', {
+			'event_category': 'Button',
+			'event_label': buttonText
+		  });
+		}
+		// 選擇所有具有特定類別的按鈕
+		var buttons = document.querySelectorAll('.track-button');
+		// 遍歷所有按鈕，並添加點擊事件監聽器
+		buttons.forEach(function(button) {
+		  button.addEventListener('click', trackButtonClick);
+		});
+	  </script>
+	  
 </html>
