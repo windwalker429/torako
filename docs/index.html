@@ -71,6 +71,9 @@
 					<p><a href="#" target="_blank" id="fixedLink">このボタンへのリンク</a></p>
 				</div>
 			</main>
+			<!--<button class="button-play">Button 1</button>
+			<button class="button-play">Button 2</button>
+			<button class="button-play">Button 3</button>-->
 			<div class="mainFooter">
 				<div class="credit">
 					
@@ -211,6 +214,7 @@
 					btndiv.setAttribute("data-voice" ,obj[i].context[j].filename);				
 					btndiv.innerHTML=obj[i].context[j].name;
 					childdiv.appendChild(btndiv);
+					btndiv.addEventListener('click', trackButtonClick); //Hikari Add
 					
 					if(obj[i].context[j].tag){
 						for(var k=0 ; k<obj[i].context[j].tag.length ; k++){
@@ -249,14 +253,8 @@
 			'event_category': 'Button',
 			'event_label': buttonText
 		  });
-		  console.log("button trigger: "+ buttonText);
+		  console.log("button trigger: "+ buttonText); // Hikari for testing
 		}
-		// 選擇所有具有特定類別的按鈕
-		var buttons = document.querySelectorAll('.button-play'); //如果上面按鈕的類別有動，這邊要跟著改
-		// 遍歷所有按鈕，並添加點擊事件監聽器
-		buttons.forEach(function(button) {
-		  button.addEventListener('click', trackButtonClick);
-		});
-	  </script>
+	</script>
 	  
 </html>
