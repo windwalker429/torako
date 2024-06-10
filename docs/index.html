@@ -249,9 +249,10 @@
 			'event_category': 'Button',
 			'event_label': buttonText
 		  });
+		  console.log("button trigger: "+ buttonText);
 		}
 		// 選擇所有具有特定類別的按鈕
-		var buttons = document.querySelectorAll('.track-button');
+		var buttons = document.querySelectorAll('.button-play'); //如果上面按鈕的類別有動，這邊要跟著改
 		// 遍歷所有按鈕，並添加點擊事件監聽器
 		buttons.forEach(function(button) {
 		  button.addEventListener('click', trackButtonClick);
