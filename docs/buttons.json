@@ -157,189 +157,374 @@
       ],
       "name": "定番",
       "url": "https://www.youtube.com/@YahooTWtaigatorako"
-    },{
-        "context": [
-            {
-              "filename": "22msytmzsBE-002416",
-              "name": "虎子蛋蛋(?)",
-              "tag": [
-                "萌"
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-002624",
-              "name": "腦袋混亂",
-              "tag": [
-                "否定"
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-002906",
-              "name": "你覺得我很甜嗎?嘿嘿～",
-              "tag": [
-                "否定",
-                "害羞"
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-003632",
-              "name": "鮪魚：Hi虎子，我是半價鮪魚",
-              "tag": [
-                "萌"
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-003800",
-              "name": "這就是文化差異",
-              "tag": [
-                ""
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-010127",
-              "name": "我今天吃的是綠色的可是我買了...",
-              "tag": [
-                ""
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-010230",
-              "name": "雖然有些大福已經變成阿嬤了",
-              "tag": [
-                "震驚"
-              ]
-            },
-            {
-              "filename": "22msytmzsBE-010333",
-              "name": "虎子壞壞",
-              "tag": [
-                "萌"
-              ]
-            },
-            {
-                "filename": "22msytmzsBE-010404",
-                "name": "不是不要不可能(台語)",
-                "tag": [
-                  "暴言","命令"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-011016",
-                "name": "連三歲歲的雷丘也要去(發電廠)打工，現實好殘酷",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-011113",
-                "name": "我一百分",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-011123",
-                "name": "啊，好不甘心啊(敷衍)",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-011334",
-                "name": "被他欺負我",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-011929",
-                "name": "這不算壞壞大福啦",
-                "tag": [
-                  "褒獎"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-012034",
-                "name": "我很可愛請給我新台幣",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-012219",
-                "name": "悲鳴ver1",
-                "tag": [
-                  "萌","生活音"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-012528",
-                "name": "發好人卡(認真版)",
-                "tag": [
-                  "命令"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-015035",
-                "name": "銀鈴般的笑聲",
-                "tag": [
-                  "萌","生活音"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-015528",
-                "name": "悲鳴ver2",
-                "tag": [
-                  "萌","生活音"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-020136",
-                "name": "切腹no~no~",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-021046",
-                "name": "跟喜歡的人去哪都可以",
-                "tag": [
-                  "害羞"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-021643",
-                "name": "小弟弟小妹妹，虎子姊姊來跟你玩喔(癡漢)",
-                "tag": [
-                  "萌"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-023125",
-                "name": "5ma之歌",
-                "tag": [
-                    "暴言","5ma","瑟瑟"
-                ]
-            },           
-            {
-                "filename": "22msytmzsBE-023645",
-                "name": "不要開玩笑喔",
-                "tag": [
-                  "命令"
-                ]
-            },
-            {
-                "filename": "22msytmzsBE-030422",
-                "name": "(親親被拒絕+自配跌倒音效)",
-                "tag": [
-                  "萌","5ma"
-                ]
-            }
-          ],
-          "name": "【虎雑】你問我答！マシュマロ配信！Q&A time～　中/日 ok 【Torakolive】",
-          "url": "https://www.youtube.com/watch?v=22msytmzsBE",
-          "date": "2024-06-12"
-        },{
+    },
+    {
+      "context": [
+        {
+          "filename": "wN7kg-wqmKA-001555",
+          "name": "無名指你好可憐喔，喲西喲西",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-003158",
+          "name": "垃圾車音樂",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-004356",
+          "name": "被SC稱讚害羞中",
+          "tag": [
+            "否定",
+            "害羞"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-004604",
+          "name": "被SC稱讚快哭了",
+          "tag": [
+            "否定",
+            "害羞"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-004635",
+          "name": "害羞又心動",
+          "tag": [
+            "否定",
+            "害羞"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-004726",
+          "name": "深呼吸",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-004917",
+          "name": "我更感謝大家",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-010212",
+          "name": "我要去廁所(日文版)",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-010345",
+          "name": "我是虎子Producer",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-011416",
+          "name": "大福當椅子太軟了不要",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-011900",
+          "name": "混進大福里的蛋餅",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-014550",
+          "name": "虎子光線，嗶嗶",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-020239",
+          "name": "沒什麼用，怎麼可能（本音）",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-020309",
+          "name": "我怎麼可能不喜歡你們（本音）",
+          "tag": [
+            "褒獎"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-020630",
+          "name": "這些臭男生很愛聊歐派",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-022614",
+          "name": "不要～～",
+          "tag": [
+            "萌",
+            "生活音"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-024552",
+          "name": "我要去廁所(台語)",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-034133",
+          "name": "喘氣聲",
+          "tag": [
+            "萌",
+            "生活音"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-034141",
+          "name": "清老痰",
+          "tag": [
+            "萌",
+            "生活音"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-034439",
+          "name": "為什麼我滿身大汗",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-041719",
+          "name": "黏黏的啦",
+          "tag": [
+            "害羞"
+          ]
+        },
+        {
+          "filename": "wN7kg-wqmKA-043403",
+          "name": "比中指？我才不要",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-023125",
+          "name": "5ma之歌",
+          "tag": [
+            "暴言",
+            "5ma",
+            "瑟瑟"
+          ]
+        }
+      ],
+      "name": "【3D歌雑+SC感謝】おはTora～Sining Day！#日籍台v ！#16 #vtuber 【Torakolive】",
+      "url": "https://www.youtube.com/watch?v=wN7kg-wqmKA",
+      "date": "2024-06-16"
+    },
+    {
+      "context": [
+        {
+          "filename": "22msytmzsBE-002416",
+          "name": "虎子蛋蛋(?)",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-002624",
+          "name": "腦袋混亂",
+          "tag": [
+            "否定"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-002906",
+          "name": "你覺得我很甜嗎?嘿嘿～",
+          "tag": [
+            "否定",
+            "害羞"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-003632",
+          "name": "鮪魚：Hi虎子，我是半價鮪魚",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-003800",
+          "name": "這就是文化差異",
+          "tag": [
+            ""
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-010127",
+          "name": "我今天吃的是綠色的可是我買了...",
+          "tag": [
+            ""
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-010230",
+          "name": "雖然有些大福已經變成阿嬤了",
+          "tag": [
+            "震驚"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-010333",
+          "name": "虎子壞壞",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-010404",
+          "name": "不是不要不可能(台語)",
+          "tag": [
+            "暴言",
+            "命令"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-011016",
+          "name": "連三歲歲的雷丘也要去(發電廠)打工，現實好殘酷",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-011113",
+          "name": "我一百分",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-011123",
+          "name": "啊，好不甘心啊(敷衍)",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-011334",
+          "name": "被他欺負我",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-011929",
+          "name": "這不算壞壞大福啦",
+          "tag": [
+            "褒獎"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-012034",
+          "name": "我很可愛請給我新台幣",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-012219",
+          "name": "悲鳴ver1",
+          "tag": [
+            "萌",
+            "生活音"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-012528",
+          "name": "發好人卡(認真版)",
+          "tag": [
+            "命令"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-015035",
+          "name": "銀鈴般的笑聲",
+          "tag": [
+            "萌",
+            "生活音"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-015528",
+          "name": "悲鳴ver2",
+          "tag": [
+            "萌",
+            "生活音"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-020136",
+          "name": "切腹no~no~",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-021046",
+          "name": "跟喜歡的人去哪都可以",
+          "tag": [
+            "害羞"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-021643",
+          "name": "小弟弟小妹妹，虎子姊姊來跟你玩喔(癡漢)",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-023125",
+          "name": "5ma之歌",
+          "tag": [
+            "暴言",
+            "5ma",
+            "瑟瑟"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-023645",
+          "name": "不要開玩笑喔",
+          "tag": [
+            "命令"
+          ]
+        },
+        {
+          "filename": "22msytmzsBE-030422",
+          "name": "(親親被拒絕+自配跌倒音效)",
+          "tag": [
+            "萌",
+            "5ma"
+          ]
+        }
+      ],
+      "name": "【虎雑】你問我答！マシュマロ配信！Q&A time～　中/日 ok 【Torakolive】",
+      "url": "https://www.youtube.com/watch?v=22msytmzsBE",
+      "date": "2024-06-12"
+    },
+    {
       "context": [
         {
           "filename": "XkyrPOiS5Xk-30m52s",
@@ -360,7 +545,7 @@
           "name": "好人卡",
           "tag": [
             "否定",
-			"害羞"
+            "害羞"
           ]
         },
         {
@@ -408,7 +593,8 @@
       ],
       "name": "報台湾新聞的日本主播！用字幕君證明台湾老師教得很標準（大概） | 虎子播新聞#43",
       "url": "https://www.youtube.com/watch?v=XkyrPOiS5Xk"
-    },{
+    },
+    {
       "context": [
         {
           "filename": "YJkhQmBS-iQ-52m09s",
