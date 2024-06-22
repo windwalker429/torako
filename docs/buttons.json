@@ -158,14 +158,101 @@
       "name": "定番",
       "url": "https://www.youtube.com/@YahooTWtaigatorako"
     },
-	{
+    {
+      "context": [
+        {
+          "filename": "o-SsajTKzoo-014610",
+          "name": "贊助商宣告",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-014712",
+          "name": "吃飯辛(苦了)...誒豆",
+          "tag": [
+            "萌",
+            "震驚"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-020608",
+          "name": "泡溫泉好辛苦",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-020929",
+          "name": "啊！啊哈哈啊哈哈(向量笑聲)",
+          "tag": [
+            "萌",
+            "震驚"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-020939",
+          "name": "真的嗎？真～的～嗎？",
+          "tag": [
+            "萌",
+            "震驚"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-022829",
+          "name": "(說錯中文)啊～～討厭啦",
+          "tag": [
+            "萌",
+            "否定",
+            "害羞"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-023030",
+          "name": "我沒有害羞啦？我只是不好意思(?)",
+          "tag": [
+            "萌",
+            "否定",
+            "暴言"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-031742",
+          "name": "なんだよ!なんだよ!なんだんだよ!",
+          "tag": [
+            "萌",
+            "否定"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-032148",
+          "name": "這裡沒有人妻X3，我不是人妻X3",
+          "tag": [
+            "萌",
+            "否定"
+          ]
+        },
+        {
+          "filename": "o-SsajTKzoo-032806",
+          "name": "も討厭~~~も討厭啦～～～",
+          "tag": [
+            "萌",
+            "害羞"
+          ]
+        }
+      ],
+      "name": "【歌雑/縱配信】3D！！おはTora～Let's Singing～！！#15 #vtuber 【Torakolive】",
+      "url": "https://www.youtube.com/watch?v=o-SsajTKzoo",
+      "date": "2024-06-22"
+    },
+    {
       "context": [
         {
           "filename": "ltAVh0wJL8Y-16m46s",
           "name": "怪聲",
           "tag": [
             "萌",
-			"生活音"
+            "生活音"
           ]
         },
         {
@@ -195,7 +282,7 @@
           "tag": [
             "褒獎"
           ]
-        }        
+        }
       ],
       "name": "【3DLive】こんTora～運動日！約定好的健身環#日籍台v ！#1 #vtuber 【Torakolive】",
       "url": "https://www.youtube.com/watch?v=ltAVh0wJL8Y",
@@ -278,7 +365,7 @@
         },
         {
           "filename": "wN7kg-wqmKA-011900",
-          "name": "混進大福里的蛋餅",
+          "name": "混進大福裡的蛋餅",
           "tag": [
             "萌"
           ]
@@ -306,7 +393,7 @@
         },
         {
           "filename": "wN7kg-wqmKA-020630",
-          "name": "這些臭男生很愛聊歐派",
+          "name": "這些臭男生很愛聊(歐派)",
           "tag": [
             "萌"
           ]
@@ -328,7 +415,7 @@
         },
         {
           "filename": "wN7kg-wqmKA-034133",
-          "name": "喘氣聲",
+          "name": "(喘氣聲)",
           "tag": [
             "萌",
             "生活音"
@@ -336,7 +423,7 @@
         },
         {
           "filename": "wN7kg-wqmKA-034141",
-          "name": "清老痰",
+          "name": "(清老痰)",
           "tag": [
             "萌",
             "生活音"
