@@ -169,44 +169,6 @@
       ],
       "name": "定番",
       "url": "https://www.youtube.com/@YahooTWtaigatorako"
-    },{
-      "context": [
-        {
-          "filename": "O18M0-OR-Nc-013656",
-          "name": "パンがパンパンな",
-          "tag": [
-            "ダジャレ"
-          ]
-        },
-		{
-          "filename": "O18M0-OR-Nc-013728",
-          "name": "パンがパンパンだよ！",
-          "tag": [
-            "ダジャレ"
-          ]
-        },
-		{
-          "filename": "O18M0-OR-Nc-014053",
-          "name": "だが断る",
-          "tag": [
-          ]
-        },
-		{
-          "filename": "O18M0-OR-Nc-014529",
-          "name": "救世主なのですよ！……我我我是貓科神明",
-          "tag": [
-          ]
-        },
-		{
-          "filename": "O18M0-OR-Nc-014936",
-          "name": "あの…元気出せって",
-          "tag": [
-          ]
-        }
-      ],
-      "name": "報台湾新聞的日本主播！用字幕君證明台湾老師教得很標準（大概） | 虎子播新聞#48",
-      "url": "https://www.youtube.com/watch?v=O18M0-OR-Nc",
-      "date": "2024-07-15"
     },
     {
       "context": [
@@ -340,6 +302,45 @@
       "name": "【初見#活俠傳】不懂武俠的日本人玩活俠傳：最終章突入！？ #10【Torakolive】",
       "url": "https://www.youtube.com/watch?v=GAR-zuG8348",
       "date": "2024-07-16"
+    },
+	{
+      "context": [
+        {
+          "filename": "O18M0-OR-Nc-013656",
+          "name": "パンがパンパンな",
+          "tag": [
+            "ダジャレ"
+          ]
+        },
+		{
+          "filename": "O18M0-OR-Nc-013728",
+          "name": "パンがパンパンだよ！",
+          "tag": [
+            "ダジャレ"
+          ]
+        },
+		{
+          "filename": "O18M0-OR-Nc-014053",
+          "name": "だが断る",
+          "tag": [
+          ]
+        },
+		{
+          "filename": "O18M0-OR-Nc-014529",
+          "name": "救世主なのですよ！……我我我是貓科神明",
+          "tag": [
+          ]
+        },
+		{
+          "filename": "O18M0-OR-Nc-014936",
+          "name": "あの…元気出せって",
+          "tag": [
+          ]
+        }
+      ],
+      "name": "報台湾新聞的日本主播！用字幕君證明台湾老師教得很標準（大概） | 虎子播新聞#48",
+      "url": "https://www.youtube.com/watch?v=O18M0-OR-Nc",
+      "date": "2024-07-15"
     },
     {
       "context": [
@@ -1463,6 +1464,11 @@
           "tag": [
             "萌"
           ]
+        },
+        {
+          "filename": "XkyrPOiS5Xk-014719",
+          "name": "ち ま き っ て な ん だ",
+          "tag": []
         },
         {
           "filename": "XkyrPOiS5Xk-2h02m13s",
