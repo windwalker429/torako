@@ -9,7 +9,7 @@
       "tag": "罵倒"
     },
     {
-		"title": "瑟瑟",
+      "title": "瑟瑟",
       "tag": "瑟瑟"
     },
     {
@@ -170,7 +170,7 @@
       "name": "定番",
       "url": "https://www.youtube.com/@YahooTWtaigatorako"
     },
-	{
+    {
       "context": [
         {
           "filename": "VPIEItR5aSI-18m06s",
@@ -180,7 +180,7 @@
             "萌"
           ]
         },
-		{
+        {
           "filename": "VPIEItR5aSI-38m29s",
           "name": "Love~",
           "tag": [
@@ -193,14 +193,14 @@
           "tag": [
             "萌"
           ]
-        },        
+        },
         {
           "filename": "VPIEItR5aSI-1h12m26s",
           "name": "大福バカ~",
           "tag": [
             "瑟瑟",
-			"褒獎",
-			"暴言"
+            "褒獎",
+            "暴言"
           ]
         },
         {
@@ -222,7 +222,7 @@
           "name": "哼OP",
           "tag": [
             "萌",
-			"生活音"
+            "生活音"
           ]
         },
         {
@@ -230,7 +230,7 @@
           "name": "哼鈴聲",
           "tag": [
             "萌",
-			"生活音"
+            "生活音"
           ]
         },
         {
@@ -243,7 +243,9 @@
         {
           "filename": "VPIEItR5aSI-1h54m53s",
           "name": "一休和尚OP",
-          "tag": ["萌"]
+          "tag": [
+            "萌"
+          ]
         }
       ],
       "name": "【虎雑】人物新動作發表！！可以做更多表情了哦　中/日 ok 【Torakolive】",
@@ -253,8 +255,188 @@
     {
       "context": [
         {
+          "filename": "odw58LJWSUE-001808",
+          "name": "What are you talking about?",
+          "tag": [
+            "暴言",
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-003241",
+          "name": "我才沒有覺得很好玩呢(吞吞吐吐)",
+          "tag": [
+            "萌",
+            "否定"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-003459",
+          "name": "你們真的是很變態誒",
+          "tag": [
+            "瑟瑟"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-003517",
+          "name": "變態桑要去看眼科(?)",
+          "tag": [
+            "否定"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-003726",
+          "name": "大福真的很變態",
+          "tag": [
+            "罵倒"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-003840",
+          "name": "我要直接踢你",
+          "tag": [
+            "罵倒"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-003944",
+          "name": "我怕不小心嘴你們嘴到哭",
+          "tag": [
+            "萌",
+            "暴言"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-004053",
+          "name": "我喜歡變態",
+          "tag": [
+            "暴言"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-005105",
+          "name": "你們這些臭...爛掉的大福",
+          "tag": [
+            "暴言"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-005454",
+          "name": "很乖，你們都很乖",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-011949",
+          "name": "我都沒有說過小金金那些奇怪的話(?)",
+          "tag": [
+            "暴言",
+            "瑟瑟"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-012057",
+          "name": "請進站+笑聲",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-012227",
+          "name": "我沒有說色色的詞",
+          "tag": [
+            "瑟瑟"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-012325",
+          "name": "哪裡牙敗我不知道",
+          "tag": [
+            "否定",
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-012552",
+          "name": "我一看就知道是八力鴨肉",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-020318",
+          "name": "北七沒底家，北七底蝦",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-021354",
+          "name": "喜翻你",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-021445",
+          "name": "你們都塞進洗衣機，呦洗呦洗",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-022022",
+          "name": "我不爽是哇便所",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-022306",
+          "name": "你別小看虎子喔（得意）",
+          "tag": [
+            "命令"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-024346",
+          "name": "颱風天不要出門了，留在家裡陪我吧",
+          "tag": [
+            "命令"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-024431",
+          "name": "請緊握虎手、站穩踏階，不要摸我啊～",
+          "tag": [
+            "萌"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-024858",
+          "name": "好麻煩我不要",
+          "tag": [
+            "命令"
+          ]
+        },
+        {
+          "filename": "odw58LJWSUE-025245",
+          "name": "ASMR加油",
+          "tag": [
+            "萌"
+          ]
+        }
+      ],
+      "name": "阻止台灣人用諧音梗已經Taiwan了！所以要來學習一下です 中/日 ok 【Torakolive】",
+      "url": "https://www.youtube.com/watch?v=odw58LJWSUE",
+      "date": "2024-07-23"
+    },
+    {
+      "context": [
+        {
           "filename": "O6_kBCiGcXE-000929",
-          "name": "烤大幅聽起來很好吃",
+          "name": "烤大福聽起來很好吃",
           "tag": [
             "暴言",
             "萌"
@@ -320,12 +502,16 @@
         {
           "filename": "O6_kBCiGcXE-020236",
           "name": "虎子適合所有食物的工商",
-          "tag": ["萌"]
+          "tag": [
+            "萌"
+          ]
         },
         {
           "filename": "O6_kBCiGcXE-022819",
           "name": "虎子神社的賽錢箱",
-          "tag": ["萌"]
+          "tag": [
+            "萌"
+          ]
         },
         {
           "filename": "O6_kBCiGcXE-0045573",
