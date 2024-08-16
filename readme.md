@@ -1,4 +1,4 @@
-# 大合虎子素材庫
+# <del>大合</del>虎子素材庫
 
 ## 志願者招募
 招募會使用git版控系統與基礎js的大福們一起來剪輯虎子的素材庫，讓我們一起推廣可愛的虎子
@@ -18,17 +18,18 @@
   }
 ],
 "name": "", //直播標題
-"url": "" //直播的YouTube連結
+"url": "", //直播的YouTube連結
+"date": "yyyy-mm-dd" #直播的日期，僅作為方便排序使用，程式不會直接讀取日期
 ```
 
 ## なにこれ 這是什麼？
-[動くものはこちらから。](https://windwalker429.github.io/torako/)
-ボタンを押すと、[大合虎子](https://www.youtube.com/@YahooTWtaigatorako)がお話ししてくれます。
+[前端網址請點這邊](https://windwalker429.github.io/torako/)
+ボタンを押すと、[<del>大合</del>虎子](https://www.youtube.com/@YahooTWtaigatorako)がお話ししてくれます。
 
 ## 実装
 ボタンの[data-voice]属性に指定されたファイル名に基づき音声を読み込み、
 [buzz.js](http://buzz.jaysalvat.com/)を利用し音声再生を行っています。
 
 ## ライセンス
-音声に関わる権利は全て元著作者に帰属します。
-その他の部分については[CC-BY-NC-SA-4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)に基づき自由にご利用ください。
+聲音的所有權利歸屬原作者Torako虎子所有。
+其他部分請參考CC授權[CC-BY-NC-SA-4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)に基づき自由にご利用ください。
