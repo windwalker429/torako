@@ -136,7 +136,7 @@
         },
         {
           "filename": "RR0xyCUCS2M-013902",
-          "name": "初見安安",
+          "name": "初見安安(早期)",
           "tag": [
             "定番",
             "萌"
@@ -152,7 +152,15 @@
         },
         {
           "filename": "lWET45jOg5U-040108",
-          "name": "ENDDING招呼語",
+          "name": "晚安，ByeBye",
+          "tag": [
+            "定番",
+            "萌"
+          ]
+        },
+        {
+          "filename": "fxSp3t4gERY-023736",
+          "name": "ENDDING招呼語(早期)",
           "tag": [
             "定番",
             "萌"
@@ -169,6 +177,14 @@
         {
           "filename": "jJ831GTD19M-023111",
           "name": "大合虎子開播招呼語",
+          "tag": [
+            "定番",
+            "萌"
+          ]
+        },
+        {
+          "filename": "ZIMVPzCo2eo-000311",
+          "name": "(何)虎子開播招呼語",
           "tag": [
             "定番",
             "萌"
@@ -3060,7 +3076,7 @@
         },
         {
           "filename": "WBf2GBP_Mg0-1h42m49s",
-          "name": "ポテチ",
+          "name": "我最近都沒有吃ポテチ(洋芋片)",
           "tag": [
             "萌"
           ]
@@ -3732,9 +3748,10 @@
       "context": [
         {
           "filename": "w-M5c-F-HmM-1h38m50s",
-          "name": "大好~",
+          "name": "大家~我喜歡你們，喜歡，超喜歡，5MA",
           "tag": [
-            "褒獎"
+            "褒獎",
+            "5ma"
           ]
         }
       ],
